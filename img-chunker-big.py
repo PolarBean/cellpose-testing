@@ -5,7 +5,7 @@ import tifffile as tiff
 
 
 path_to_file = r"/home/harryc/Downloads/mouse-s23/ext-d000009_PVMouse_81265_Samp1__s023.tif"
-image_outdir = path_to_file.split(".")[0].split("/")[-1] + '_quadrants'
+image_outdir = path_to_file.split(".")[0].split("/")[-1] + '_large'
 if not os.path.exists(image_outdir):
     os.makedirs(image_outdir)
 # Read the image

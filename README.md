@@ -4,7 +4,7 @@ This is a basic guide of some things that we have learned from testing CellPose.
     * we then load a selection of these chunks and manually label cells
     * The model is then trained on these
   
-   ** There is a bug in CellPose for models using the a finetuned nuclei model. I describe it here and how to fix it https://github.com/MouseLand/cellpose/issues/900 **
+   **There is a bug in CellPose for models using the a finetuned nuclei model. I describe it here and how to fix it https://github.com/MouseLand/cellpose/issues/900**
       In short to fix the above bug just change the default diam_mean in the __init__ function of CPNet to 17.0
 3. Next we deploy the trained model on the full images
    * for the moment the full images are crashing my machine, so we will need to run on a larger machine

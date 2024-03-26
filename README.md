@@ -1,4 +1,4 @@
-This is a basic guide of some things that I have learned from testing CellPose.
+This is a basic guide of some things that we have learned from testing CellPose.
 1. First we need to train on chunks
     * To create these chunks we run img-chunker.py, we noticed that the nuclei model performs best if the chunks are inverted
     * we then load a selection of these chunks and manually label cells

@@ -1,0 +1,1 @@
+python -m cellpose --use_gpu --image_path Y:/2021_Bjerke_DevMouse_projects/02_DERIVED_DATA/Test_sections_for_segmentation/calbindin_downscaled_04_autocropped/Original_downscaled_04_inverted/mouse137_P21_M_calb_s071_inverted.tif --no_resample --pretrained_model custom_nucleu --save_png  --verbose --save_tif --diameter 17

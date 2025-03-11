@@ -12,6 +12,6 @@ This is a basic guide of some things that we have learned from testing CellPose.
    * To deploy the trained model on one image running the following command
 
     ```bash
-    python -m cellpose --image_path /run/media/harryc/4TB_external_NTFS/linux-backup/Github/img-cropper/ext-d000009_PVMouse_81265_Samp1__s023_quadrants/chunk_15470_18564.tif --no_resample --pretrained_model nuclei --save_png  --verbose --save_tif --diameter 17
+    python -m cellpose --image_path /run/media/harryc/4TB_external_NTFS/linux-backup/Github/img-cropper/ext-d000009_PVMouse_81265_Samp1__s023_quadrants/chunk_15470_18564.tif --no_resample --pretrained_model nuclei --save_png  --verbose --save_tif --diameter 0
     ```
     If we want to run on a directory simply replace the image_path argument with --dir and point it towards a full directory
